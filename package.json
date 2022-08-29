@@ -1,0 +1,31 @@
+{
+  "name": "readme.js",
+  "version": "1.0.0",
+  "description": "Generate a neat and informative README using customizable components",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node ./docs/build_readme.js",
+    "example": "node ./examples/readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjaySunil/readme.js.git"
+  },
+  "author": {
+    "name": "Sanjay Sunil",
+    "email": "sanjaysunil@protonmail.com",
+    "url": "https://sanjaysunil.net"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SanjaySunil/readme.js/issues"
+  },
+  "homepage": "https://github.com/SanjaySunil/readme.js#readme",
+  "keywords": [
+    "readme.js",
+    "readme",
+    "generator",
+    "markdown"
+  ]
+}
