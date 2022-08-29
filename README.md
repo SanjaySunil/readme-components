@@ -1,6 +1,6 @@
 <!-- Header -->
 <br/><br/>
-<h1 align="center">readme.js</h1>
+<h1 align="center">readme-components</h1>
   <p align="center">
     Generate a neat and informative README using customizable components
     <br />
@@ -13,14 +13,14 @@
 <br/><br/>
 
 <!-- Description -->
-## What's readme.js?
+## What's readme-components?
 
-[readme.js]() is a lightweight, easy-to-use tool for generating beautiful, concise and informative README's within seconds. The tool allows you to create templates which can be reused across many projects and makes README writing 100x easier and hassle-free. It requires little knowledge to use and you can get started right away with the following steps.
+[readme-components]() is a lightweight, easy-to-use tool for generating beautiful, concise and informative README's within seconds. The tool allows you to create templates which can be reused across many projects and makes README writing 100x easier and hassle-free. It requires little knowledge to use and you can get started right away with the following steps.
 
 <!-- Install -->
 ## Install
 ```sh
-$ npm install readme.js
+$ npm install readme-components
 ```
 
 <!-- Usage
@@ -29,10 +29,10 @@ This is a pre-written component which will be directly used in the README.
 
 ## Usage
 
-### [`readme.js`](../examples/readme.js)
+### [`readme-components`](../examples/readme-components)
 
 ```js
-import README from "readme.js";
+import README from "readme-components";
 
 let template = new README();
 
@@ -55,7 +55,7 @@ template.make_readme();
 
 ## Markdown components
 
-`readme.js` has some premade [`components`](../templates/) that can be used in your own READMEs.
+`readme-components` has some premade [`components`](../templates/) that can be used in your own READMEs.
 
 Simply move them to a folder in your project and include the information required.
 
@@ -74,7 +74,7 @@ Such a descriptive word.
 #### [make_template.js]()
 
 ```js
-import README from "readme.js";
+import README from "readme-components";
 
 template = new README();
 

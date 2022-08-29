@@ -4,10 +4,10 @@ This is a pre-written component which will be directly used in the README.
 
 ## Usage
 
-### [`readme.js`](../examples/readme.js)
+### [`readme-components`](../examples/readme-components)
 
 ```js
-import README from "readme.js";
+import README from "readme-components";
 
 let template = new README();
 

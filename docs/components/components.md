@@ -2,7 +2,7 @@
 
 ## Markdown components
 
-`readme.js` has some premade [`components`](../templates/) that can be used in your own READMEs.
+`readme-components` has some premade [`components`](../templates/) that can be used in your own READMEs.
 
 Simply move them to a folder in your project and include the information required.
 
@@ -21,7 +21,7 @@ Such a descriptive word.
 #### [make_template.js]()
 
 ```js
-import README from "readme.js";
+import README from "readme-components";
 
 template = new README();
 

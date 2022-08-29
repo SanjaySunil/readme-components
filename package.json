@@ -1,15 +1,15 @@
 {
-  "name": "readme.js",
+  "name": "readme-components",
   "version": "1.0.0",
   "description": "Generate a neat and informative README using customizable components",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node ./docs/build_readme.js",
-    "example": "node ./examples/readme.js"
+    "build": "node ./docs/build_readme-components",
+    "example": "node ./examples/readme-components"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanjaySunil/readme.js.git"
+    "url": "git+https://github.com/SanjaySunil/readme-components.git"
   },
   "author": {
     "name": "Sanjay Sunil",
@@ -19,11 +19,11 @@
   "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/SanjaySunil/readme.js/issues"
+    "url": "https://github.com/SanjaySunil/readme-components/issues"
   },
-  "homepage": "https://github.com/SanjaySunil/readme.js#readme",
+  "homepage": "https://github.com/SanjaySunil/readme-components#readme",
   "keywords": [
-    "readme.js",
+    "readme-components",
     "readme",
     "generator",
     "markdown"
