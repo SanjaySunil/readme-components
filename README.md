@@ -29,7 +29,7 @@ This is a pre-written component which will be directly used in the README.
 
 ## Usage
 
-### [`readme-components`](../examples/readme-components)
+### [`readme-components`](./examples/readme-components)
 
 ```js
 import README from "readme-components";
@@ -55,9 +55,23 @@ template.make_readme();
 
 ## Markdown components
 
-`readme-components` has some premade [`components`](../templates/) that can be used in your own READMEs.
+`readme-components` has some premade [`components`](./lib/templates/) that can be used in your own READMEs.
 
-Simply move them to a folder in your project and include the information required.
+Simply use `.use_premade(template)` in order to make use of them!
+
+#### Example
+```js
+import README from "readme-components";
+
+template = new README();
+
+template.use_premade("header", {
+  name: "my-awesome-readme",
+  description: "made using a premade header!"
+});
+
+template.make_readme();
+```
 
 ### Making your own components
 
