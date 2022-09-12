@@ -5,9 +5,9 @@
     Generate a neat and informative README using customizable components
     <br />
     <br />
-    <a href="https://github.com/SanjaySunil/package-readme/issues">Report Bug</a>
+    <a href="https://github.com/SanjaySunil/readme-components/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SanjaySunil/package-readme/issues">Request Feature</a>
+    <a href="https://github.com/SanjaySunil/readme-components/issues">Request Feature</a>
   </p>
 </h1>
 <br/><br/>
