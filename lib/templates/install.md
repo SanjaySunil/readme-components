@@ -3,3 +3,4 @@
 ```sh
 $ npm install {package}
 ```
+<br />
