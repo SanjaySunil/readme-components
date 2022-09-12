@@ -4,7 +4,7 @@ This is a pre-written component which will be directly used in the README.
 
 ## Usage
 
-### [`readme-components`](../examples/readme-components)
+### [`readme-components`](./examples/readme-components)
 
 ```js
 import README from "readme-components";

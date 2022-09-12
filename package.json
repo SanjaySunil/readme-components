@@ -4,7 +4,7 @@
   "description": "Generate a neat and informative README using customizable components",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node ./.github/build.mjs"
+    "build": "node ./README.mjs"
   },
   "repository": {
     "type": "git",
